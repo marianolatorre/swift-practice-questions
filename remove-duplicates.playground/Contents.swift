@@ -6,6 +6,7 @@ let input = ["hello","goodbye","hello"]
 
 func removeDuplicates(arr: [String]) -> [String] {
     var hash = [String:Bool]()
+
     for elem in arr {
         hash[elem] = true
     }
